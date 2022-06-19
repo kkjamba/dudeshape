@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+body, button, input {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #244D4D;
+}
+header .nav {
+  display: flex;
+  gap: 50px;
+}
+header .nav-item {
+  list-style: none;
+}
+header .nav-item a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #161616;
+}
+header .search-panel {
+  display: flex;
+  gap: 40px;
+}
+header .search-panel button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+hero {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-bottom: 140px;
+}
+hero .banner {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  transform: translateY(50%);
+  width: 410px;
+  padding: 74px 120px;
+  background: #154444;
+  color: #FFFFFF;
+}
+hero .banner-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #FFFFFF;
+  margin: 0 0 30px;
+}
+hero .banner-description {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+hero img {
+  width: 800px;
+  height: 600px;
+}
+
+.companies {
+  padding: 0 57px;
+  margin-bottom: 140px;
+}
+.companies .section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #244D4D;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.companies .companies-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  margin-bottom: 140px;
+}
+.about-block {
+  padding: 33px 0;
+}
+.about-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #244D4D;
+  margin-bottom: 20px;
+}
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #383738;
+  margin-bottom: 40px;
+}
+.about-benefits {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.about-benefits__item {
+  display: flex;
+  gap: 20px;
+  max-width: 360px;
+  width: 100%;
+}
+.about-benefits__item img {
+  width: 50px;
+  height: 50px;
+}
+.about-benefits__item-block-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: #244D4D;
+  margin-bottom: 15px;
+}
+.about-benefits__item-block-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #383738;
+}
+.about-img {
+  width: 596px;
+  height: 577px;
+}
+
+.popular-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #244D4D;
+  margin-bottom: 20px;
+}
+.popular-description-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.popular-description-control__description {
+  width: 850px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #383738;
+}
+.popular-description-control__btn-group {
+  display: flex;
+  gap: 10px;
+}
+.popular-description-control__btn-group button {
+  width: 40px;
+  height: 40px;
+  background: #ECF4FF;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.popular .more-link {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.popular .more-link a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FF5F00;
+}
+.popular .popular-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+.popular .popular-items .popular-item {
+  box-shadow: 0 13px 26px 0 rgba(0, 0, 0, 0.07);
+}
+.popular .popular-items .popular-item .item-img {
+  width: 380px;
+  height: 250px;
+}
+.popular .popular-items .popular-item-menu {
+  padding: 30px 25px;
+}
+.popular .popular-items .popular-item-menu .line1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.popular .popular-items .popular-item-menu .line1 .item-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #244D4D;
+}
+.popular .popular-items .popular-item-menu .line1 .item-btn-group {
+  display: flex;
+  gap: 8px;
+}
+.popular .popular-items .popular-item-menu .line1 .item-btn-group .like-btn {
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  background: #ECF4FF;
+  border-radius: 50%;
+  overflow: visible;
+  cursor: pointer;
+}
+.popular .popular-items .popular-item-menu .line1 .item-btn-group .like-btn path {
+  fill: black;
+}
+.popular .popular-items .popular-item-menu .line2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .popular-items .popular-item-menu .line2 .item-cost {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #154444;
+}
+.popular .popular-items .popular-item-menu .line2 .item-button {
+  cursor: pointer;
+  background: #244D4D;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 140px;
+}
+.all-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #244D4D;
+  margin-bottom: 30px;
+}
+.all-categories {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+.all-categories-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #919090;
+}
+.all-categories .active {
+  color: #244D4D;
+  position: relative;
+}
+.all-categories .active::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 50px;
+  background: #244D4D;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.all-choice {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+.all-choice-green {
+  position: absolute;
+  top: -20px;
+  width: 550px;
+  height: 380px;
+  background: #154444;
+  overflow: hidden;
+  z-index: -1;
+}
+.all-choice-img {
+  width: 550px;
+  height: 380px;
+  margin-left: 30px;
+}
+.all-choice-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-end;
+}
+.all-choice-menu-item {
+  cursor: pointer;
+  width: 220px;
+  height: 90px;
+  border: 1.5px solid #D9DCE5;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.all-choice-menu-item__img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 9px;
+}
+.all-choice-menu-item__img path {
+  fill: #666666;
+}
+.all-choice-menu-item__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #808080;
+}
+.all-choice-menu .active {
+  background: #154444;
+}
+.all-choice-menu .active .all-choice-menu-item__img path {
+  fill: white;
+}
+.all-choice-menu .active .all-choice-menu-item__text {
+  color: white;
+}
+
+.subscribe {
+  background: #305F64;
+  padding: 65px 300px;
+}
+.subscribe-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.subscribe-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+.subscribe-form {
+  display: flex;
+  width: 450px;
+  height: 65px;
+  margin: 0 auto;
+  padding: 8px 20px;
+  background: #fff;
+  gap: 30px;
+  border-radius: 10px;
+}
+.subscribe-form-img {
+  width: 16px;
+  height: 16px;
+}
+.subscribe-form-input {
+  width: 100%;
+  border: none;
+  padding-left: 30px;
+}
+.subscribe-form-input:focus {
+  outline: none;
+}
+.subscribe-form-btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  background: #FFB624;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
